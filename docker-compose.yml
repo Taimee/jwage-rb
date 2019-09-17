@@ -1,0 +1,15 @@
+version: '3'
+volumes:
+  bundle:
+services:
+  app:
+    build: .
+    volumes:
+      - .:/jwage
+      - bundle:/usr/local/bundle
+    environment:
+      - LANG=ja_JP.UTF-8
+      - LC_CTYPE=ja_JP.UTF-8
+networks:
+  jwage:
+    external: true

@@ -1,8 +1,6 @@
 # Jwage
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jwage`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A Ruby implementation for Japan minimum wage.
 
 ## Installation
 
@@ -22,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+today = Date.today
+# => #<Date: 2019-09-18>
+
+wage = Jwage.find('東京都', today)
+wage.value    # 985
+wage.start_at # #<Date: 2018-10-01>
+wage.end_at   # #<Date: 2019-09-30>
+```
 
 ## Development
 

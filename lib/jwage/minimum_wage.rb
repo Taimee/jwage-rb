@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 module Jwage
   class MinimumWage
-    attr_reader :value, :start_at, :end_at 
+    attr_reader :value, :start_at, :end_at
 
     def initialize(row)
       @value = row['wage']

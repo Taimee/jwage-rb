@@ -8,7 +8,7 @@ require 'jwage/minimum_wage'
 module Jwage
   module_function
 
-  def find(input = nil, target_date = nil)
+  def find(input, target_date)
     return nil if input.nil? || target_date.nil?
 
     code = Jwage::Code.find(input)

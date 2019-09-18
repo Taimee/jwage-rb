@@ -9,7 +9,6 @@ module Jwage
     end
 
     def include?(date)
-      # この部分、timeが日時の場合がどういう挙動か確認する
       (@start_at <= date) && (@end_at.nil? || date <= @end_at)
     end
   end

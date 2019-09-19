@@ -17,3 +17,6 @@ Metrics/BlockLength:
 
 Metrics/AbcSize:
   Max: 50
+
+Security/YAMLLoad:
+  Enabled: false

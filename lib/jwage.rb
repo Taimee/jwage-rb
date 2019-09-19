@@ -17,7 +17,7 @@ module Jwage
     yaml_file = DATA_DIR.join("minimum_wages/#{format('%02d', code.to_i)}.yaml")
     return nil unless File.exist?(yaml_file)
 
-    data = YAML.safe_load(File.read(yaml_file))
+    data = YAML.load(File.read(yaml_file))
     m_wages = data.map { |d| Jwage::MinimumWage.new(d) }
     m_wages.find { |wage| wage.include?(target_date) }
   end

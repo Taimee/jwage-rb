@@ -28,6 +28,12 @@ wage = Jwage.find('東京都', today)
 wage.value    # 985
 wage.start_at # #<Date: 2018-10-01>
 wage.end_at   # #<Date: 2019-09-30>
+
+
+wage = Jwage.find('03', today)
+wage.value    # 762
+wage.start_at # #<Date: 2018-10-01>
+wage.end_at   # #<Date: 2019-10-03>
 ```
 
 ## Development

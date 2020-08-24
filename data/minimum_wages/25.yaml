@@ -51,4 +51,7 @@
   end_at: 2019-10-02
 - wage: 866
   start_at: 2019-10-03
+  end_at: 2020-09-30
+- wage: 868
+  start_at: 2020-10-01
   end_at: ~

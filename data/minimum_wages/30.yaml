@@ -51,4 +51,7 @@
   end_at: 2019-09-30
 - wage: 830
   start_at: 2019-10-01
+  end_at: 2020-09-30
+- wage: 831
+  start_at: 2020-10-01
   end_at: ~

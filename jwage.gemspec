@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'jwage'
   spec.version       = Jwage::VERSION
   spec.authors       = ['pokohide']
-  spec.email         = ['pokohide@taimee.co.jp']
+  spec.email         = ['pokohide@timee.co.jp']
 
   spec.summary       = 'A Ruby implementation for Japan minimum wage.'
   spec.description   = 'A Ruby implementation for Japan minimum wage.'

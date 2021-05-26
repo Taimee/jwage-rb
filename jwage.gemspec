@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'jwage'
   spec.version       = Jwage::VERSION
   spec.authors       = ['pokohide']
-  spec.email         = ['pokohide@taimee.co.jp']
+  spec.email         = ['pokohide@timee.co.jp']
 
   spec.summary       = 'A Ruby implementation for Japan minimum wage.'
   spec.description   = 'A Ruby implementation for Japan minimum wage.'
@@ -31,7 +31,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 1.17'
+  spec.add_development_dependency 'bundler', '>= 2.2.10'
   spec.add_development_dependency 'guard'
   spec.add_development_dependency 'guard-bundler'
   spec.add_development_dependency 'guard-rubocop'

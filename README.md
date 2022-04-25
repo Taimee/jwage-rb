@@ -1,3 +1,7 @@
+# Warning!
+
+This library is not maintained and its use is deprecated.
+
 # Jwage
 
 A Ruby implementation for Japan minimum wage.
